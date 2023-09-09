@@ -1,0 +1,31 @@
+#right{
+    text-align: right;
+   
+}
+#parent{
+     position: absolute;
+     top: 54%;
+     left: 49%;
+     transform: translate(-50%, -50%);
+}
+#Bar {
+    border-radius: 25px;
+    width: 265px;
+}
+#kid{
+    position: absolute;
+     top: 50%;
+     left: 120%;
+     transform: translate(-50%, -50%);
+}
+  
+#logo{
+     height: 225px;
+     position: absolute;
+     top: 54%;
+     left: 51%;
+     transform: translate(-50%, -50%);
+     color:#4285f4;
+     font: 16px/16px roboto-regular, arial, sans-serif;        
+     
+} 

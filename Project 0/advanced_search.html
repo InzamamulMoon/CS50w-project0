@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>Google Adavanced Search</title>
+        <link rel="stylesheet" href="advanced_search_style.css">
+    </head>
+    <body>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" id="logo">    
+        <div id="right">
+            <nav>
+                <a href="./index.html">Google Search</a>
+            </nav>
+        </div>
+        <label id="label">Advanced Search</label>
+        <hr>
+        <div id="bar">
+            <span id="instructions">Find pages with...</span>
+            <label id="instruct">To do this in the search box</label>
+            <form action="https://www.google.com/search">
+                <label for="words">all these words:</label>
+                <input id="words"type="text" name="as_q" >
+                <div class="discript"><label for="words">Type the important words:  tricolor rat terrier</label></div><br>
+                <label class="dirction" for="phrase">this exact word or phrase:</label>
+                <input id="phrase"type="text" name="as_epq" >
+                <div class="discript"><label for="phrase">Put exact words in quotes:  "rat terrier"</label></div><br>
+                <label for="any">any of these words:</label>
+                <input id="any"type="text" name="as_oq" >
+                <div class="discript"><label for="any">Type OR between all the words you want:  miniature OR standard</label></div><br>
+                <label for="none">none of these words:</label>
+                <input id="none"type="text" name="as_eq" >
+                <div class="discript"><label for="none">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label></div><br>
+        </div>  
+    
+              <input id="Search" type="submit" value="Adavanced Search">
+            </form>
+            <hr id="mid">
+    </body>
+</html>

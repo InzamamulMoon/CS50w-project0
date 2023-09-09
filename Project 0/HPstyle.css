@@ -1,0 +1,18 @@
+.parent {
+    height: 165px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    #Bar {
+        border-radius: 25px;
+        width: 285px;
+    }
+    .kid{
+        padding-left:32px; 
+    }   
+    #right{
+        text-align:right;
+    } 
+    
